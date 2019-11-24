@@ -1,0 +1,28 @@
+{
+	"name": "Eradicator constructor",
+	"description": "Synthesises Eradicators.",
+	"type": "UnitFactory",
+	"unitType": "eradicator",
+	"size": 8,
+	"produceTime": 8000,
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 8.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 200},
+				{"item": "titanium", "amount": 400},
+				{"item": "thorium", "amount": 200},
+				{"item": "surge-alloy", "amount": 50}
+			]
+		}
+	},
+	"category": "units",
+	"research": "chaos-array-factory",
+	"requirements": [
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "titanium", "amount": 1000 },
+		{ "item": "graphite", "amount": 500 },
+		{ "item": "surge-alloy", "amount": 100 }
+	]
+}

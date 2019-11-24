@@ -1,0 +1,26 @@
+{
+	"name": "Chaos array factory",
+	"description": "Makes chaos array units.",
+	"type": "UnitFactory",
+	"unitType": "chaos-array",
+	"size": 4,
+	"produceTime": 3000,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 80},
+				{"item": "titanium", "amount": 60},
+			]
+		}
+	},
+	"category": "units",
+	"research": "eruptor-factory",
+	"requirements": [
+		{ "item": "plastanium", "amount": 100 },
+		{ "item": "titanium", "amount": 200 },
+		{ "item": "lead", "amount": 250 },
+		{ "item": "silicon", "amount": 200 }
+	]
+}

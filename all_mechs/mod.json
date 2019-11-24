@@ -1,0 +1,6 @@
+{
+  "name": "All mech factories",
+  "author": "Recessive",
+  "description": "Adds every mech factory to the game. Uses vanilla resources. Use workshop page for balance suggestions.\n\nMod includes:\n- Eruptor factory\n- Chaos array factory\n- Eradicator constructor\n- Lich constructor\n- Reaper constructor\nAlso includes proper tech tree research, so each factory is researched off the last:\n- Eruptor requires fortress mech factory for research\n- Chaos array requires Eruptor factory for research\n- Eradicator requires Chaos array factory for research\n- Lich requires Revenant factory for research\n- Reaper requires Lich constructor for research",
+  "version": 0.1
+}
